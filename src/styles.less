@@ -1,113 +1,7 @@
-/* You can add global styles to this file, and also import other style files */
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-hr,
-p,
-blockquote,
-dl,
-dt,
-dd,
-ul,
-ol,
-li,
-pre,
-fieldset,
-lengend,
-button,
-input,
-textarea,
-th,
-td {
-  margin: 0;
-  padding: 0;
+@import './assets/less/reset.less';
+body {
+  background: #f8f8f8;
 }
-body,
-button,
-input,
-select,
-textarea {
-  font: 12px/1 'Microsoft Yahei', 'simsun';
-}
-h1 {
-  font-size: 18px;
-}
-h2 {
-  font-size: 16px;
-}
-h3 {
-  font-size: 14px;
-}
-h4,
-h5,
-h6 {
-  font-size: 100%;
-}
-address,
-cite,
-dfn,
-em,
-var {
-  font-style: normal;
-}
-code,
-kbd,
-pre,
-samp,
-tt {
-  font-family: 'Courier New', Courier, monospace;
-}
-small {
-  font-size: 12px;
-}
-ul,
-ol {
-  list-style: none;
-}
-a {
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-}
-abbr[title],
-acronym[title] {
-  border-bottom: 1px dotted;
-  cursor: help;
-}
-q:before,
-q:after {
-  content: '';
-}
-legend {
-  color: #000;
-}
-fieldset,
-img {
-  border: 0;
-}
-button,
-input,
-select,
-textarea {
-  font-size: 100%;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-hr {
-  border: 0;
-  height: 1px;
-}
-html {
-  overflow-y: scroll;
-}
-
 #header {
   border-bottom: 1px #f4f4f4 solid;
   height: 40px;
@@ -297,7 +191,8 @@ html {
 .nav-a a:hover {
   color: #d91d1f;
   text-decoration: none;
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/4.png) no-repeat left center;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/4.png)
+    no-repeat left center;
 }
 .nav-b {
   font-size: 14px;
@@ -350,7 +245,8 @@ html {
 }
 #mbar-con p {
   position: absolute;
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/14.png) no-repeat left top;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/14.png)
+    no-repeat left top;
   left: 0;
   top: 0;
   *top: -10px;
@@ -359,7 +255,8 @@ html {
 }
 #arrow-1 {
   display: block;
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png) no-repeat -416px -71px;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png)
+    no-repeat -416px -71px;
   width: 14px;
   height: 7px;
   position: absolute;
@@ -369,7 +266,8 @@ html {
 }
 #arrow-2 {
   display: block;
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png) no-repeat -416px -71px;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png)
+    no-repeat -416px -71px;
   width: 14px;
   height: 7px;
   position: absolute;
@@ -471,12 +369,14 @@ li.sliderbanner_here a {
 }
 .slider .prev {
   left: 50px;
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/prev.png) no-repeat;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/prev.png)
+    no-repeat;
   opacity: 0.8;
 }
 .slider .next {
   right: 50px;
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/next.png) no-repeat;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/next.png)
+    no-repeat;
   opacity: 0.8;
 }
 #banner-tip {
@@ -485,7 +385,8 @@ li.sliderbanner_here a {
   position: relative;
 }
 #banner-tip-con {
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/2.png) no-repeat left top;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/2.png)
+    no-repeat left top;
   width: 300px;
   height: 230px;
   position: absolute;
@@ -548,41 +449,7 @@ li.sliderbanner_here a {
   text-indent: -9999px;
   display: inline;
 }
-.icon-i-1 {
-  width: 13px;
-  height: 14px;
-  background-position: 0 0;
-}
-.icon-i-2 {
-  width: 24px;
-  height: 24px;
-  background-position: -18px -28px;
-}
-.icon-i-2:hover {
-  width: 24px;
-  height: 24px;
-  background-position: -18px 0;
-}
-.icon-i-3 {
-  width: 24px;
-  height: 24px;
-  background-position: -18px -138px;
-}
-.icon-i-3:hover {
-  width: 24px;
-  height: 24px;
-  background-position: -18px -111px;
-}
-.icon-i-4 {
-  width: 24px;
-  height: 24px;
-  background-position: -18px -84px;
-}
-.icon-i-4:hover {
-  width: 24px;
-  height: 24px;
-  background-position: -18px -56px;
-}
+
 .icon-i-5 {
   width: 74px;
   height: 36px;
@@ -897,7 +764,8 @@ li.sliderbanner_here a {
   margin-top: 10px;
 }
 .wyd-info-5 {
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png) no-repeat -161px -15px;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png)
+    no-repeat -161px -15px;
   width: 200px;
   height: 6px;
   line-height: 6px;
@@ -905,17 +773,20 @@ li.sliderbanner_here a {
   margin-top: 30px;
 }
 .wyd-inner-bar-1 {
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png) no-repeat -161px -28px;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png)
+    no-repeat -161px -28px;
   height: 6px;
   width: 50%;
 }
 .wyd-inner-bar-2 {
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png) no-repeat -161px 0;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png)
+    no-repeat -161px 0;
   height: 6px;
   width: 100%;
 }
 .wyd-inner-bar-3 {
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png) no-repeat -115px -95px;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png)
+    no-repeat -115px -95px;
   height: 6px;
   width: 100%;
 }
@@ -1078,7 +949,8 @@ li.sliderbanner_here a {
   text-decoration: none;
 }
 .news-list li p i {
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png) no-repeat -336px -61px;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png)
+    no-repeat -336px -61px;
   float: left;
   display: inline;
   width: 4px;
@@ -1175,7 +1047,8 @@ li.sliderbanner_here a {
   color: #d91d1f;
 }
 .wyd-list-bar {
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png) no-repeat -161px -15px;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png)
+    no-repeat -161px -15px;
   width: 200px;
   height: 6px;
   line-height: 6px;
@@ -1199,7 +1072,8 @@ li.sliderbanner_here a {
 .fresh-icon {
   position: absolute;
   display: block;
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png) no-repeat -336px -70px;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png)
+    no-repeat -336px -70px;
   width: 56px;
   height: 57px;
   top: -28px;
@@ -1286,7 +1160,8 @@ li.sliderbanner_here a {
 }
 #fresh-i {
   position: absolute;
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png) no-repeat 0 -170px;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png)
+    no-repeat 0 -170px;
   width: 76px;
   height: 76px;
   top: -5px;
@@ -1403,14 +1278,16 @@ li.sliderbanner_here a {
   height: 20px;
 }
 #pd-i-2 {
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png) no-repeat -478px -127px;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png)
+    no-repeat -478px -127px;
   float: left;
   display: inline;
   width: 20px;
   height: 20px;
 }
 #pd-i-3 {
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png) no-repeat -425px -127px;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png)
+    no-repeat -425px -127px;
   float: left;
   display: inline;
   width: 20px;
@@ -1418,14 +1295,16 @@ li.sliderbanner_here a {
   cursor: pointer;
 }
 #pd-i-4 {
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png) no-repeat -451px -127px;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png)
+    no-repeat -451px -127px;
   float: left;
   display: inline;
   width: 20px;
   height: 20px;
 }
 #pd-i-5 {
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/cunguan/pd-i-5.png) repeat 0 0;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/cunguan/pd-i-5.png)
+    repeat 0 0;
   float: left;
   display: inline-block;
   width: 20px;
@@ -1450,7 +1329,8 @@ li.sliderbanner_here a {
   color: #07b2e8;
 }
 .tb-bar {
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png) no-repeat -91px -190px;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png)
+    no-repeat -91px -190px;
   width: 210px;
   height: 7px;
   line-height: 7px;
@@ -1458,17 +1338,20 @@ li.sliderbanner_here a {
   margin-top: 40px;
 }
 .tb-inner-bar-1 {
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png) no-repeat -91px -210px;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png)
+    no-repeat -91px -210px;
   height: 7px;
   width: 100%;
 }
 .tb-inner-bar-2 {
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png) no-repeat -91px -170px;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png)
+    no-repeat -91px -170px;
   height: 7px;
   width: 50%;
 }
 .tb-inner-bar-3 {
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png) no-repeat -91px -230px;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png)
+    no-repeat -91px -230px;
   height: 7px;
   width: 100%;
 }
@@ -1585,7 +1468,8 @@ li.sliderbanner_here a {
   margin-top: -95px;
 }
 #action {
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/15.png) no-repeat right bottom;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/15.png)
+    no-repeat right bottom;
   border-bottom: 1px #ebebeb solid;
 }
 #action h3 {
@@ -2229,7 +2113,8 @@ li.sliderbanner_here a {
 #code-status {
   width: 232px;
   height: 16px;
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/code.jpg) no-repeat 0 -48px;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/code.jpg)
+    no-repeat 0 -48px;
   margin-top: 0;
   *margin-top: -1px;
   margin-left: 70px;
@@ -2337,10 +2222,12 @@ li.sliderbanner_here a {
   text-justify: inter-ideograph;
 }
 #newhand-1 {
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/31.png) no-repeat 700px center;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/31.png)
+    no-repeat 700px center;
 }
 #newhand-2 {
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/32.png) no-repeat 725px center;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/32.png)
+    no-repeat 725px center;
 }
 .newhand-c {
   height: 330px;
@@ -2385,7 +2272,8 @@ li.sliderbanner_here a {
 }
 #newhand-btn a {
   display: block;
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png) no-repeat -323px -204px;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png)
+    no-repeat -323px -204px;
   width: 120px;
   height: 36px;
   text-align: center;
@@ -2762,7 +2650,8 @@ li.sliderbanner_here a {
 }
 .about-fz-r i {
   position: absolute;
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png) no-repeat -473px -214px;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png)
+    no-repeat -473px -214px;
   width: 16px;
   height: 16px;
   left: -9px;
@@ -2844,14 +2733,16 @@ li.sliderbanner_here a {
 }
 #ac-l a {
   display: block;
-  background: #fff url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/60.png) no-repeat center
-    center;
+  background: #fff
+    url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/60.png)
+    no-repeat center center;
   width: 30px;
   height: 60px;
 }
 #ac-l a:hover {
-  background: #eee url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/60.png) no-repeat center
-    center;
+  background: #eee
+    url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/60.png)
+    no-repeat center center;
 }
 #ac-r {
   position: absolute;
@@ -2860,14 +2751,16 @@ li.sliderbanner_here a {
 }
 #ac-r a {
   display: block;
-  background: #fff url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/61.png) no-repeat center
-    center;
+  background: #fff
+    url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/61.png)
+    no-repeat center center;
   width: 30px;
   height: 60px;
 }
 #ac-r a:hover {
-  background: #eee url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/61.png) no-repeat center
-    center;
+  background: #eee
+    url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/61.png)
+    no-repeat center center;
 }
 #i-company #about-company-con {
   top: 30px;
@@ -3030,7 +2923,8 @@ li.sliderbanner_here a {
   text-indent: 5px;
 }
 .news-lists li p i {
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png) no-repeat -336px -61px;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png)
+    no-repeat -336px -61px;
   float: left;
   display: inline;
   width: 4px;
@@ -3128,7 +3022,8 @@ li.sliderbanner_here a {
 #help-l li .help-cur-nav,
 #help-l li a:hover {
   color: #ea231f;
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/4.png) no-repeat 40px center;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/4.png)
+    no-repeat 40px center;
 }
 #help-r {
   float: left;
@@ -3280,7 +3175,8 @@ li.sliderbanner_here a {
 #join-l li .join-cur-nav,
 #join-l li a:hover {
   color: #ea231f;
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/4.png) no-repeat 20px center;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/4.png)
+    no-repeat 20px center;
 }
 #join-r {
   float: left;
@@ -3350,52 +3246,64 @@ li.sliderbanner_here a {
   text-decoration: none;
 }
 #safe-l li .safe-n-1 {
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/45.png) no-repeat 24px center;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/45.png)
+    no-repeat 24px center;
 }
 #safe-l li .safe-n-1a,
 #safe-l li .safe-n-1:hover {
   color: #ea231f;
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/44.png) no-repeat 24px center;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/44.png)
+    no-repeat 24px center;
 }
 #safe-l li .safe-n-2 {
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/47.png) no-repeat 24px center;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/47.png)
+    no-repeat 24px center;
 }
 #safe-l li .safe-n-2a,
 #safe-l li .safe-n-2:hover {
   color: #ea231f;
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/46.png) no-repeat 24px center;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/46.png)
+    no-repeat 24px center;
 }
 #safe-l li .safe-n-3 {
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/49.png) no-repeat 24px center;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/49.png)
+    no-repeat 24px center;
 }
 #safe-l li .safe-n-3a,
 #safe-l li .safe-n-3:hover {
   color: #ea231f;
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/48.png) no-repeat 24px center;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/48.png)
+    no-repeat 24px center;
 }
 #safe-l li .safe-n-4 {
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/51.png) no-repeat 24px center;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/51.png)
+    no-repeat 24px center;
 }
 #safe-l li .safe-n-4a,
 #safe-l li .safe-n-4:hover {
   color: #ea231f;
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/50.png) no-repeat 24px center;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/50.png)
+    no-repeat 24px center;
 }
 #safe-l li .safe-n-5 {
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/53.png) no-repeat 24px center;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/53.png)
+    no-repeat 24px center;
 }
 #safe-l li .safe-n-5a,
 #safe-l li .safe-n-5:hover {
   color: #ea231f;
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/52.png) no-repeat 24px center;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/52.png)
+    no-repeat 24px center;
 }
 #safe-l li .safe-n-6 {
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/55.png) no-repeat 24px center;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/55.png)
+    no-repeat 24px center;
 }
 #safe-l li .safe-n-6a,
 #safe-l li .safe-n-6:hover {
   color: #ea231f;
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/54.png) no-repeat 24px center;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/54.png)
+    no-repeat 24px center;
 }
 #safe-r {
   float: left;
@@ -3432,14 +3340,16 @@ li.sliderbanner_here a {
 .safe-c1-1 {
   float: left;
   display: inline;
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png) no-repeat -91px -276px;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png)
+    no-repeat -91px -276px;
   width: 14px;
   height: 14px;
   margin-left: 21px;
   margin-top: 21px;
 }
 .safe-c1-1a {
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png) no-repeat -68px -276px;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png)
+    no-repeat -68px -276px;
 }
 .safe-c1-2 {
   float: left;
@@ -3594,7 +3504,8 @@ li.sliderbanner_here a {
   height: 157px;
   line-height: 157px;
   border: 1px #e9ecee dashed;
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/59.png) no-repeat 75px center;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/59.png)
+    no-repeat 75px center;
   font-size: 24px;
   color: #999;
   text-decoration: none;
@@ -4036,11 +3947,13 @@ li.sliderbanner_here a {
   display: block;
   width: 50px;
   height: 50px;
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png) no-repeat -380px 0;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png)
+    no-repeat -380px 0;
   cursor: pointer;
 }
 .to-top span:hover {
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png) no-repeat -440px 0;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png)
+    no-repeat -440px 0;
 }
 #download {
   width: 146px;
@@ -4103,14 +4016,16 @@ li.sliderbanner_here a {
   border-left: 1px #d1d1d1 solid;
 }
 #down-l a {
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png) no-repeat -48px -28px;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png)
+    no-repeat -48px -28px;
   display: block;
   width: 20px;
   height: 23px;
   margin-left: 20px;
 }
 #down-r a {
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png) no-repeat -48px 0;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png)
+    no-repeat -48px 0;
   display: block;
   width: 20px;
   height: 24px;
@@ -4271,8 +4186,9 @@ li.sliderbanner_here a {
   height: 495px;
 }
 .a8-p-r h2 {
-  background: #55bfc4 url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/a-9.png) no-repeat
-    17px center;
+  background: #55bfc4
+    url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/a-9.png)
+    no-repeat 17px center;
   height: 65px;
   line-height: 65px;
   font-size: 22px;
@@ -4840,7 +4756,8 @@ li.sliderbanner_here a {
 .tb-ico-1 {
   float: left;
   display: inline;
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png) no-repeat -323px -162px;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png)
+    no-repeat -323px -162px;
   width: 40px;
   height: 40px;
   margin-left: 40px;
@@ -4848,7 +4765,8 @@ li.sliderbanner_here a {
 .tb-ico-2 {
   float: left;
   display: inline;
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png) no-repeat -376px -162px;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png)
+    no-repeat -376px -162px;
   width: 40px;
   height: 40px;
   margin-left: 40px;
@@ -4856,7 +4774,8 @@ li.sliderbanner_here a {
 .tb-ico-3 {
   float: left;
   display: inline;
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png) no-repeat -433px -162px;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png)
+    no-repeat -433px -162px;
   width: 40px;
   height: 40px;
   margin-left: 40px;
@@ -4947,7 +4866,8 @@ li.sliderbanner_here a {
   zoom: 1;
 }
 .ok-i-1 {
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png) no-repeat -266px -110px;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png)
+    no-repeat -266px -110px;
   width: 40px;
   height: 40px;
   font-size: 0;
@@ -4957,7 +4877,8 @@ li.sliderbanner_here a {
   margin-right: 8px;
 }
 .ok-i-2 {
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png) no-repeat -2px -250px;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png)
+    no-repeat -2px -250px;
   width: 40px;
   height: 40px;
   display: inline;
@@ -5246,7 +5167,8 @@ li.sliderbanner_here a {
   width: 14px;
   height: 7px;
   margin-left: 7px;
-  background: url(https://ami-img.b0.upaiyun.com/account/1.1.2/imgs/ico_tips.png) 0 0 no-repeat;
+  // background: url(https://ami-img.b0.upaiyun.com/account/1.1.2/imgs/ico_tips.png)
+  // 0 0 no-repeat;
   display: none;
 }
 #nav span.active a {
@@ -5301,8 +5223,8 @@ li.sliderbanner_here a {
   padding: 0 10px;
 }
 .newbieGuide {
-  background: url(https://yylc-img.b0.upaiyun.com/frontweb/theme/imagesnew/update20161215/newbieGuide-bg.jpg) repeat
-    15px -22px;
+  background: url(https://yylc-img.b0.upaiyun.com/frontweb/theme/imagesnew/update20161215/newbieGuide-bg.jpg)
+    repeat 15px -22px;
 }
 .newbieGuide .step {
   margin-top: 0;
@@ -5386,8 +5308,8 @@ li.sliderbanner_here a {
   width: 100%;
   height: 120px;
   background: #f4fafa
-    url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/cunguan/cunguan-icon1.png) no-repeat
-    center center;
+    url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/cunguan/cunguan-icon1.png)
+    no-repeat center center;
 }
 .cunguan-mask .cunguan-box .cunguan-cont .cunguan-cont-title {
   font-size: 18px;
@@ -5426,8 +5348,8 @@ li.sliderbanner_here a {
   font-size: 32px;
   cursor: pointer;
   color: #222;
-  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/cunguan/close.png) no-repeat
-    center center;
+  background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/cunguan/close.png)
+    no-repeat center center;
 }
 .cunguan-mask .cunguan-box .cunguan-btn .cunguan-btn-sure {
   display: block;
@@ -6347,7 +6269,8 @@ html {
 }
 .education-cont .business-1 {
   height: 214px;
-  background: url(https://fe.yingyinglicai.com/h5-activities/old-web/1.0.0/business-1.jpg) no-repeat center center;
+  background: url(https://fe.yingyinglicai.com/h5-activities/old-web/1.0.0/business-1.jpg)
+    no-repeat center center;
   position: relative;
 }
 .business-data-6,
@@ -6476,7 +6399,8 @@ html {
   display: inline-block;
   width: 20px;
   height: 20px;
-  background: url(https://yylc-img.b0.upaiyun.com/frontweb/theme/imagesnew/gongan.png) no-repeat center center;
+  background: url(https://yylc-img.b0.upaiyun.com/frontweb/theme/imagesnew/gongan.png)
+    no-repeat center center;
   vertical-align: middle;
   margin-right: 8px;
 }
@@ -6555,7 +6479,8 @@ html {
 .investor-cont .left-right .width200 li:hover,
 .investor-cont .left-right .width200 li.active {
   color: #d91d1f;
-  background: url(https://ami-img.b0.upaiyun.com/yylc/dian.jpg) no-repeat 10px center;
+  background: url(https://ami-img.b0.upaiyun.com/yylc/dian.jpg) no-repeat 10px
+    center;
 }
 .investor-cont .left-right .investor-cont-context {
   padding: 40px;
