@@ -1,0 +1,48 @@
+.outcome {
+  display: flex;
+  justify-content: space-between;
+  & > div {
+    border: 1px #ebebeb solid;
+    background: #fff;
+  }
+  .o-a {
+    width: 746px;
+    .yyad {
+      width: 746px;
+      height: 208px;
+      border-top: 1px #ebebeb solid;
+    }
+  }
+  .r-n {
+    width: 240px;
+    .project {
+      border-top: 1px #ebebeb solid;
+      padding: 0px 20px;
+      font-size: 14px;
+
+      .table-header {
+        height: 40px;
+        font-weight: 400;
+        line-height: 40px;
+        color: #5b5a5a;
+        display: flex;
+        justify-content: space-between;
+      }
+      .item {
+        height: 42px;
+        line-height: 42px;
+        display: flex;
+        justify-content: space-between;
+        .name {
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          color: #999;
+        }
+        .value {
+          color: #ea231f;
+        }
+      }
+    }
+  }
+}

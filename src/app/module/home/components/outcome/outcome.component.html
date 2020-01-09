@@ -1,0 +1,31 @@
+<div class="outcome m-t-20">
+  <div class="o-a" title="outstanding achievement">
+    <div class="i-title">
+      <h3>盈盈业绩</h3>
+      <p>数据截止2018年9月</p>
+    </div>
+    <div class="yyad">
+      <img
+        src="../../../../assets/images/20180429.jpg"
+        alt="盈盈业绩"
+        title="盈盈业绩"
+      />
+    </div>
+  </div>
+  <div class="r-n" title="Repayment notice">
+    <div class="i-title">
+      <h3>还款通告</h3>
+      <p><a href="/news/PaymentNotice.do">查看更多</a></p>
+    </div>
+    <div class="project">
+      <div class="table-header">
+        <div>项目名</div>
+        <div>还款金额(元)</div>
+      </div>
+      <div class="item" *ngFor="let item of rN">
+        <div class="name">{{ item.name }}</div>
+        <div class="value">{{ item.value }}</div>
+      </div>
+    </div>
+  </div>
+</div>

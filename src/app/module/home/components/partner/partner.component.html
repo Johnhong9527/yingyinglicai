@@ -1,0 +1,17 @@
+<div class="partner">
+  <div class="i-title">
+    <h3>合作伙伴</h3>
+    <p><a href="">查看更多</a></p>
+  </div>
+  <div class="company">
+    <div class="left" (click)="left()"><a href="javascript:;"></a></div>
+    <div class="right" (click)="right()"><a href="javascript:;"></a></div>
+    <div class="about-company">
+      <div class="imgs">
+        <a [href]="item.link" *ngFor="let item of imgs">
+          <img [src]="item.url" alt="" />
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

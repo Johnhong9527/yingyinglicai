@@ -12,7 +12,7 @@ import { PageMenuComponent } from './components/page-menu/page-menu.component';
     AppComponent,
     PageHeaderComponent,
     PageFooterComponent,
-    PageMenuComponent,
+    PageMenuComponent
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

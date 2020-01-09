@@ -1,0 +1,41 @@
+<div class="wyd-pro m-t-10">
+  <div class="name">{{ wyd.name }}</div>
+  <div class="m-amount">{{ wyd.mAmount }}元起投</div>
+  <div class="tips">借款金额（元）</div>
+  <div class="amount">{{ wyd.amount }}</div>
+  <div class="bar">
+    <div
+      [class.start]="wyd.status < 1"
+      [class.end]="wyd.status"
+      [style.width]="
+        wyd.status < 1 ? (wyd.last / wyd.amount) * 100 + '%' : '100%'
+      "
+    ></div>
+  </div>
+  <div class="info" *ngIf="wyd.status < 1">
+    <div class="last">
+      已募集<i>{{ last }}%</i>
+    </div>
+    <div class="last">
+      剩余<span>{{ wyd.amount - wyd.last }}</span
+      >元
+    </div>
+    <p></p>
+  </div>
+  <div class="info" *ngIf="wyd.status">
+    投资成功
+  </div>
+  <div class="other">
+    <div>
+      <div class="name">{{ last_title }}</div>
+      <div class="value">
+        <i>{{ wyd.interestRate }}</i> %
+      </div>
+    </div>
+    <div>
+      <div class="name">借款期限</div>
+      <div class="value">{{ wyd.date }}</div>
+    </div>
+  </div>
+  <div class="btn">还款中 · 查看详情</div>
+</div>

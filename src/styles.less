@@ -22,3 +22,59 @@ body {
   text-indent: -9999px;
   display: inline;
 }
+.m-t-10 {
+  margin-top: 10px;
+}
+.m-t-20 {
+  margin-top: 20px;
+}
+.i-title {
+  height: 50px;
+  line-height: 46px;
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: '.';
+    clear: both;
+    height: 0;
+  }
+  h3 {
+    float: left;
+    display: inline;
+    font-size: 18px;
+    font-weight: 400;
+    color: #4b5e6f;
+    margin-left: 20px;
+    span {
+      font-size: 14px;
+      color: #999;
+      margin-left: 10px;
+      i {
+        font-style: normal;
+        color: #cb2900;
+      }
+    }
+    a {
+      color: #4b5e6f;
+      &:hover {
+        color: #d91d1f;
+        text-decoration: none;
+      }
+    }
+  }
+  p {
+    float: right;
+    display: inline;
+    margin-right: 20px;
+    color: #999;
+    font-size: 14px;
+    a {
+      color: #999;
+      &:hover {
+        color: #d91d1f;
+        text-decoration: none;
+      }
+    }
+  }
+}

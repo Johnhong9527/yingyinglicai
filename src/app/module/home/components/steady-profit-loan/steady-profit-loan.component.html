@@ -1,0 +1,15 @@
+<div class="steady-profit-loan m-t-20">
+  <div class="i-title">
+    <h3>{{ title }}</h3>
+    <p><a href="/product/list.htm?prodType=001">查看更多</a></p>
+  </div>
+
+  <!-- [title]="pro_title" -->
+</div>
+<div class="content">
+  <app-wyd-pro
+    *ngFor="let item of items"
+    [wyd]="item"
+    [last_title]="pro_title"
+  ></app-wyd-pro>
+</div>

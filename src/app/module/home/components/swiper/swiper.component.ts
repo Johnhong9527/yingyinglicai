@@ -16,12 +16,12 @@ export class SwiperComponent implements OnInit {
   lunbo() {
     this.carousel = $('.carousel').children();
     $('.float-ul-li')
-      .eq(this.i - 1)
+      .eq(this.i)
       .css('opacity', 1)
       .siblings()
       .css('opacity', 0.5);
     $('.carousel > div')
-      .eq(this.i - 1)
+      .eq(this.i)
       .fadeIn('Slow')
       .siblings()
       .fadeOut('Slow');
@@ -45,5 +45,12 @@ export class SwiperComponent implements OnInit {
         self.lunboTime = setInterval(self.lunbo, 1500);
       };
     });
+  }
+  ngOnDestroy() {
+    clearInterval(this.lunboTime);
+    this.i = 0;
+    this.carousel = '';
+    this.float = '';
+    this.lunboTime = null;
   }
 }

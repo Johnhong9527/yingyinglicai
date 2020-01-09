@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  & > div {
+    background-color: #fff;
+    border: 1px #ebebeb solid;
+    flex: 0 0 493px;
+    .news-list {
+      ul {
+        border-top: 1px #ebebeb solid;
+        li {
+          height: 40px;
+          line-height: 40px;
+          padding: 0 20px 0 0px;
+          display: flex;
+          justify-content: space-between;
+          p {
+            display: inline;
+          }
+          i {
+            background: url(https://fe.yingyinglicai.com/h5-projects/cunguan/1.0.1/static/imagesnew/1.png)
+              no-repeat -336px -61px;
+            float: left;
+            display: inline;
+            width: 4px;
+            height: 4px;
+            margin-top: 18px;
+            margin-left: 20px;
+          }
+          a {
+            color: #696969;
+            float: left;
+            display: block;
+            width: 340px;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            -o-text-overflow: ellipsis;
+            overflow: hidden;
+            font-size: 14px;
+            text-indent: 5px;
+          }
+        }
+      }
+    }
+  }
+}
