@@ -11,57 +11,39 @@ export class SwiperComponent implements OnInit {
   float: any = '';
   i: number = 0;
   lunboTime: any;
-  self: any;
   ngOnInit() {}
 
   lunbo() {
     this.carousel = $('.carousel').children();
-    $('.float')
-      .children()
-      .children('li')
+    $('.float-ul-li')
       .eq(this.i - 1)
       .css('opacity', 1)
       .siblings()
       .css('opacity', 0.5);
-    $(this.carousel[this.i])
-      .children()
-      .fadeIn('Slow');
-    $(this.carousel[this.i])
+    $('.carousel > div')
+      .eq(this.i - 1)
+      .fadeIn('Slow')
       .siblings()
-      .children()
       .fadeOut('Slow');
-    if (this.i < 3) {
+    if (this.i < $('.float-ul-li').length) {
       this.i++;
     } else {
       this.i = 0;
     }
   }
   ngAfterViewInit() {
-    self = this;
-    // console.log(this); onmouseover
-    this.lunbo();
-    this.lunboTime = setInterval(this.lunbo, 2000);
+    var self = this;
+    self.lunbo();
+    self.lunboTime = setInterval(self.lunbo, 1500);
     $('.float-ul-li').map((index, el) => {
-      console.log();
       $(el)[0].onmouseover = function() {
-        console.log(self);
-        // i = this.innerText;
-        // carousel = $('.carousel').children();
-        // $(carousel[i])
-        //   .children()
-        //   .fadeIn('Slow');
-        // $(carousel[i])
-        //   .siblings()
-        //   .children()
-        //   .fadeOut('Slow');
-        // $(float)
-        //   .children('li')
-        //   .eq(i - 1)
-        //   .css('opacity', 1)
-        //   .siblings()
-        //   .css('opacity', 0.5);
+        clearInterval(self.lunboTime);
+        self.i = Number.parseInt($(this).text());
+        self.lunbo();
+      };
+      $(el)[0].onmouseout = function() {
+        self.lunboTime = setInterval(self.lunbo, 1500);
       };
     });
-    // console.log($('.float-ul-li'));
   }
 }
