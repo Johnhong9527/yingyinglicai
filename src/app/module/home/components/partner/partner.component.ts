@@ -47,6 +47,5 @@ export class PartnerComponent implements OnInit {
     this.lis = $('.about-company a');
     this.ulsWidth = this.lis.length * 220;
     this.uls.width(this.ulsWidth);
-    console.log(this.ulsWidth);
   }
 }
